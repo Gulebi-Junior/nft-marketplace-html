@@ -1,0 +1,190 @@
+body {
+    margin: 0px;
+}
+p {
+    margin: 0px;
+}
+
+header {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0px 120px;
+}
+
+.logo {
+    font-family: "Integral CF";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #3d00b7;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-vl {
+    border: 0.5px solid #f4f4f4;
+    transform: rotate(90deg);
+    width: 47px;
+    height: 0px;
+}
+
+.sub-nav {
+    display: flex;
+    gap: 47px;
+}
+
+.nav-link {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    color: #000000;
+}
+
+.actions {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-input {
+    width: 300px;
+    height: 50px;
+    background: #ffffff;
+    border: 2px solid #efefef;
+    border-radius: 100px;
+    padding: 15px 30px;
+    box-sizing: border-box;
+
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    color: #c0c0c0;
+}
+
+.nav-upload-btn {
+    width: 131px;
+    height: 50px;
+    background: #3d00b7;
+    border-radius: 60px;
+    border: 0px;
+
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.nav-connect-btn {
+    width: 156px;
+    height: 50px;
+    border: 2px solid #3d00b7;
+    border-radius: 60px;
+    background-color: #ffffff;
+
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.04em;
+    color: #3d00b7;
+}
+
+.header-hl {
+    border: 0.5px solid #efefef;
+    margin: 0px;
+}
+
+.hero {
+    padding: 0px 120px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 57px;
+}
+
+.hero-info {
+    width: 612px;
+}
+
+.hero-title {
+    width: 612px;
+
+    font-family: "Integral CF";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+}
+
+.hero-subtitle {
+    width: 471px;
+
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+
+    color: #565656;
+
+    margin-bottom: 41px;
+}
+
+.hero-btn {
+    width: 209px;
+    height: 65px;
+    background: #3d00b7;
+    border-radius: 60px;
+    border: 0px;
+
+    font-family: "Averta Demo PE Cutted Demo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.065em;
+
+    color: #ffffff;
+}
+
+.hero-stats {
+    display: flex;
+    gap: 23px;
+    margin-top: 30px;
+}
+
+.stat-title {
+    font-family: "Integral CF";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+    margin: 0px;
+}
+
+.stat-subtitle {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #565656;
+}
