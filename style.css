@@ -334,7 +334,7 @@ nav {
     margin-left: 10px;
 }
 
-.small-nfts-block {
+.coll-over-small-nfts-block {
     margin-left: 53px;
 }
 
@@ -455,4 +455,277 @@ nav {
     font-size: 18px;
     line-height: 23px;
     color: #3d00b7;
+    margin-bottom: 28px;
+}
+
+.one-top-coll-over-block {
+    height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.one-top-coll-over-sub-block {
+    display: flex;
+    align-items: center;
+}
+
+.one-top-coll-over-place {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 103%;
+    letter-spacing: -0.025em;
+
+    width: 16px;
+    text-align: center;
+}
+.one-top-coll-over-avatar-block {
+    position: relative;
+    margin-left: 19px;
+}
+
+.one-top-coll-over-avatar-sub-image {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+}
+
+.one-top-coll-over-info-block {
+    margin-left: 23px;
+}
+
+.one-top-coll-over-info-title {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 103%;
+    letter-spacing: -0.025em;
+}
+
+.one-top-coll-over-info-sub-block {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.one-top-coll-over-info-price-icon {
+    width: 14.25px;
+    height: 24px;
+    fill: currentColor;
+    color: #000000;
+}
+
+.one-top-coll-over-info-price-text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 103%;
+    letter-spacing: -0.025em;
+    color: #636363;
+
+    margin-left: 6px;
+}
+
+.one-top-coll-over-info-percent {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 103%;
+    text-align: right;
+    letter-spacing: -0.025em;
+
+    margin-left: 25px;
+}
+
+.otcoi-percent-green {
+    color: #14c8b0;
+}
+
+.otcoi-percent-red {
+    color: #ff002e;
+}
+
+.otco-hl {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.colls-nft-block {
+    background: rgba(217, 224, 236, 0.2);
+    backdrop-filter: blur(50px);
+    padding: 65px 120px 99px 120px;
+}
+
+.coll-nft-blocks {
+    display: flex;
+    justify-content: space-between;
+    gap: 31px;
+}
+
+.colls-nft-title {
+    font-family: "Integral CF";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+
+    margin-top: 0px;
+    margin-bottom: 55px;
+}
+
+.coll-nft-image-block {
+    display: flex;
+    gap: 9px;
+}
+
+.coll-nft-small-images-block {
+    display: flex;
+    flex-direction: column;
+    gap: 8.25px;
+}
+
+.coll-nft-info-title {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+
+    margin-top: 29.35px;
+    margin-bottom: 10.4px;
+}
+
+.coll-nft-info-sub-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coll-nft-info-author-block {
+    display: flex;
+    align-items: center;
+}
+
+.coll-nft-info-author-name {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+
+    margin-left: 10px;
+}
+
+.coll-nft-info-total-items-btn {
+    width: 98px;
+    height: 29px;
+    border: 1px solid #2639ed;
+    border-radius: 60px;
+    background: #ffffff;
+
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11.0008px;
+    line-height: 14px;
+    color: #2639ed;
+}
+
+.sign-up-nft-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 102px 120px 82px 120px;
+}
+
+.sign-up-nft-images-block {
+    position: relative;
+    width: 650.98px;
+    height: 606px;
+}
+
+#sign-up-nft-image-sub-block-1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#sign-up-nft-image-sub-block-2 {
+    position: absolute;
+    top: 138px;
+    left: 364px;
+}
+
+#sign-up-nft-image-sub-block-3 {
+    position: absolute;
+    top: 352px;
+    left: 105px;
+}
+
+#sign-up-nft-sub-image-1 {
+    position: absolute;
+    right: -28px;
+    bottom: -34px;
+}
+
+#sign-up-nft-sub-image-2 {
+    position: absolute;
+    right: -36px;
+    bottom: -20px;
+}
+
+#sign-up-nft-sub-image-3 {
+    position: absolute;
+    right: -40.45px;
+    bottom: -40px;
+}
+
+.sing-up-nft-title {
+    width: 320px;
+    margin-bottom: 40px;
+
+    font-family: "Integral CF";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.sing-up-nft-subtitle {
+    width: 517px;
+    margin-bottom: 32px;
+
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #636363;
+}
+
+.sing-up-nft-btn {
+    padding: 20px 40px;
+    background: #3d00b7;
+    border-radius: 50px;
+
+    font-family: "Averta Demo PE Cutted Demo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.065em;
+    color: #ffffff;
+}
+
+.discover-nft-title {
+    font-family: "Integral CF";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
 }
