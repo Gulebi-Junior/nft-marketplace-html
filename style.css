@@ -75,6 +75,16 @@ nav {
     color: #c0c0c0;
 }
 
+.nav-input::placeholder {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    color: #c0c0c0;
+}
+
 .nav-upload-btn {
     width: 131px;
     height: 50px;
@@ -712,6 +722,7 @@ nav {
     padding: 20px 40px;
     background: #3d00b7;
     border-radius: 50px;
+    border: 0px;
 
     font-family: "Averta Demo PE Cutted Demo";
     font-style: normal;
@@ -722,10 +733,339 @@ nav {
     color: #ffffff;
 }
 
+.discover-nft-block {
+    padding: 0px 120px;
+    background: rgba(217, 224, 236, 0.2);
+    backdrop-filter: blur(50px);
+}
+
 .discover-nft-title {
     font-family: "Integral CF";
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
     line-height: 41px;
+}
+
+.discover-nft-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discover-nft-nav-sort-block {
+    display: flex;
+    gap: 12px;
+}
+
+.discover-nft-nav-colored-btn {
+    background: #3d00b7;
+    border-radius: 100px;
+    padding: 10px 20px;
+    border: 0px;
+
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+}
+
+.discover-nft-nav-uncolored-btn {
+    background: rgba(220, 220, 220, 0.2);
+    border-radius: 100px;
+    padding: 10px 20px;
+    border: 0px;
+
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.discover-nft-nav-filter-btn {
+    background: rgba(220, 220, 220, 0.2);
+    border-radius: 100px;
+    padding: 10px 20px;
+    border: 0px;
+
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #371c87;
+
+    display: flex;
+}
+
+.discover-nft-nav-filter-btn-text {
+    margin-left: 10px;
+}
+
+.discover-nft-cards-block {
+    padding-top: 40px;
+    padding-bottom: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.discover-nft-cards-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.discover-nft-card {
+    background: #ffffff;
+    border: 1.09706px solid rgba(242, 242, 242, 0.5);
+    border-radius: 13.1647px;
+
+    padding: 11px;
+    width: 273px;
+    box-sizing: border-box;
+}
+
+.discover-nft-card-info-block {
+    padding: 0px 12px;
+}
+
+.discover-nft-card-info-main-block {
+    padding-bottom: 17px;
+    margin-bottom: 10.8px;
+}
+
+.discover-nft-card-info-title {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.7471px;
+    line-height: 19px;
+
+    margin-top: 22px;
+    margin-bottom: 10.7px;
+}
+
+.discover-nft-card-info-main-price-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discover-nft-card-info-main-price-sub-block {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.discover-nft-card-info-price-icon {
+    width: 8.89px;
+    height: 15.36px;
+    fill: currentColor;
+    color: #00ac4f;
+}
+
+.discover-nft-card-info-price-text {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.9706px;
+    line-height: 14px;
+
+    color: #00ac4f;
+}
+
+.discover-nft-card-info-price-sub-text {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.1647px;
+    line-height: 19px;
+    color: #838383;
+}
+
+.b-hl {
+    border-bottom: 2px solid #f4f4f4;
+}
+
+.discover-nft-card-info-bid-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discover-nft-card-info-time-left-btn {
+    background: #f5f5f5;
+    border-radius: 109.7px;
+    padding: 4.39px 10.98px;
+    border: 0px;
+
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.9706px;
+    line-height: 19px;
+    color: #5539a8;
+}
+
+.discover-nft-card-info-bid-text {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.3588px;
+    line-height: 20px;
+    color: #4f33a3;
+}
+
+.discover-nft-bottom-block {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 47px;
+}
+
+.discover-nft-bottom-btn {
+    border: 2px solid #3d00b7;
+    border-radius: 50px;
+    padding: 20px 40px;
+    background: #ffffff;
+
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #4f33a3;
+}
+
+footer {
+    padding: 0px 120px;
+}
+
+.footer-main-block {
+    padding-top: 79px;
+    padding-bottom: 69px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 96px;
+}
+
+.footer-main-logo {
+    font-family: "Integral CF";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    margin-top: 0px;
+    margin-bottom: 27px;
+}
+
+.footer-main-text-type-1 {
+    width: 333px;
+    font-family: "Averta Demo PE Cutted Demo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #565656;
+    margin-bottom: 32px;
+}
+
+.footer-main-links {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-main-link {
+    text-decoration: none;
+}
+
+.footer-main-title {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+.footer-main-text-type-2 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 200%;
+    color: #3d3d3d;
+}
+
+.footer-main-text-type-3 {
+    width: 362px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #363639;
+}
+
+.footer-main-input-email {
+    width: 364px;
+    height: 60.79px;
+    background: #ffffff;
+    border: 2px solid #f1f1f1;
+    border-radius: 45.595px;
+    padding-left: 26px;
+    box-sizing: border-box;
+
+    margin-top: 24px;
+}
+
+.footer-main-input-email::placeholder {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.1587px;
+    line-height: 16px;
+    color: #959595;
+}
+
+.footer-main-input-submit {
+    margin-left: -160px;
+    padding: 15.2px 30.4px;
+    background: #2639ed;
+    border-radius: 45.595px;
+    border: 0px;
+
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.1587px;
+    line-height: 16px;
+    letter-spacing: 0.065em;
+    color: #ffffff;
+}
+
+.footer-copyright-block {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 15px;
+    padding-bottom: 24px;
+}
+
+.footer-copyright-text {
+    font-family: "Averta Demo PE Cutted Demo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #a4a4a4;
+}
+
+.t-hl {
+    border-top: 2px solid #f4f4f4;
 }
