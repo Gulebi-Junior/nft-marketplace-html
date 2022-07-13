@@ -22,6 +22,8 @@ header {
     font-size: 24px;
     line-height: 29px;
     color: #3d00b7;
+
+    cursor: pointer;
 }
 
 nav {
@@ -72,7 +74,6 @@ nav {
     font-size: 16px;
     line-height: 21px;
     letter-spacing: 0.04em;
-    color: #c0c0c0;
 }
 
 .nav-input::placeholder {
@@ -91,6 +92,7 @@ nav {
     background: #3d00b7;
     border-radius: 60px;
     border: 0px;
+    cursor: pointer;
 
     font-family: "DM Sans";
     font-style: normal;
@@ -107,6 +109,7 @@ nav {
     border: 2px solid #3d00b7;
     border-radius: 60px;
     background-color: #ffffff;
+    cursor: pointer;
 
     font-family: "DM Sans";
     font-style: normal;
@@ -164,6 +167,7 @@ nav {
     background: #3d00b7;
     border-radius: 60px;
     border: 0px;
+    cursor: pointer;
 
     font-family: "Averta Demo PE Cutted Demo";
     font-style: normal;
@@ -423,6 +427,7 @@ nav {
     margin-top: 15px;
     border: 0px;
     color: #ffffff;
+    cursor: pointer;
 
     font-family: "Averta Demo PE Cutted Demo";
     font-style: normal;
@@ -637,6 +642,7 @@ nav {
     border: 1px solid #2639ed;
     border-radius: 60px;
     background: #ffffff;
+    cursor: pointer;
 
     font-family: "DM Sans";
     font-style: normal;
@@ -723,6 +729,7 @@ nav {
     background: #3d00b7;
     border-radius: 50px;
     border: 0px;
+    cursor: pointer;
 
     font-family: "Averta Demo PE Cutted Demo";
     font-style: normal;
@@ -762,6 +769,7 @@ nav {
     border-radius: 100px;
     padding: 10px 20px;
     border: 0px;
+    cursor: pointer;
 
     font-family: "DM Sans";
     font-style: normal;
@@ -776,6 +784,7 @@ nav {
     border-radius: 100px;
     padding: 10px 20px;
     border: 0px;
+    cursor: pointer;
 
     font-family: "DM Sans";
     font-style: normal;
@@ -789,6 +798,7 @@ nav {
     border-radius: 100px;
     padding: 10px 20px;
     border: 0px;
+    cursor: pointer;
 
     font-family: "DM Sans";
     font-style: normal;
@@ -916,6 +926,8 @@ nav {
     font-size: 15.3588px;
     line-height: 20px;
     color: #4f33a3;
+
+    cursor: pointer;
 }
 
 .discover-nft-bottom-block {
@@ -929,6 +941,7 @@ nav {
     border-radius: 50px;
     padding: 20px 40px;
     background: #ffffff;
+    cursor: pointer;
 
     font-family: "DM Sans";
     font-style: normal;
@@ -960,6 +973,7 @@ footer {
 
     margin-top: 0px;
     margin-bottom: 27px;
+    cursor: pointer;
 }
 
 .footer-main-text-type-1 {
@@ -1000,6 +1014,8 @@ footer {
     font-size: 14px;
     line-height: 200%;
     color: #3d3d3d;
+
+    cursor: pointer;
 }
 
 .footer-main-text-type-3 {
@@ -1022,6 +1038,12 @@ footer {
     box-sizing: border-box;
 
     margin-top: 24px;
+
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.1587px;
+    line-height: 16px;
 }
 
 .footer-main-input-email::placeholder {
@@ -1039,6 +1061,7 @@ footer {
     background: #2639ed;
     border-radius: 45.595px;
     border: 0px;
+    cursor: pointer;
 
     font-family: "DM Sans";
     font-style: normal;
@@ -1064,6 +1087,8 @@ footer {
     font-size: 14px;
     line-height: 160%;
     color: #a4a4a4;
+
+    cursor: pointer;
 }
 
 .t-hl {
